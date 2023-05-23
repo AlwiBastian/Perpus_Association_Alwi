@@ -64,7 +64,7 @@ while True:
         break
 
     elif choice == '1':
-        print("=== Daftar Buku ===")
+        print("||-Daftar Buku-||")
         for index, book in enumerate(books):
             print(f"{index+1}. {book.title} - {book.author}")
 
@@ -77,7 +77,7 @@ while True:
 
     elif choice == '2':
         if member1.borrowed_books:
-            print("=== Buku yang Dipinjam ===")
+            print("||-Buku yang Dipinjam-||")
             for index, book in enumerate(member1.borrowed_books):
                 print(f"{index+1}. {book.title} - {book.author}")
 
