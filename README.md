@@ -24,7 +24,7 @@ Contoh Penggunaan
 Berikut adalah contoh penggunaan program:
 1. Memasukkan nama anggota perpustakaan.
 2. Memilih opsi dari menu yang tersedia:
-Opsi 1: Pinjam buku. Pengguna memilih buku yang ingin dipinjam.
-Opsi 2: Kembalikan buku. Pengguna memilih buku yang ingin dikembalikan.
-Opsi 3: Tampilkan buku yang dipinjam. Menampilkan daftar buku yang saat ini dipinjam oleh anggota.
-Opsi 0: Keluar. Menghentikan program.
+- Opsi 1: Pinjam buku. Pengguna memilih buku yang ingin dipinjam.
+- Opsi 2: Kembalikan buku. Pengguna memilih buku yang ingin dikembalikan.
+- Opsi 3: Tampilkan buku yang dipinjam. Menampilkan daftar buku yang saat ini dipinjam oleh anggota.
+- Opsi 0: Keluar. Menghentikan program.
