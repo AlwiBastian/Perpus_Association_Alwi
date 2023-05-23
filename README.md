@@ -5,17 +5,18 @@ Program ini merupakan implementasi sederhana dari sistem peminjaman buku di perp
 
 ### 1. Book:
 
-Atribut:
+#### Atribut:
 - title (string): Judul buku.
 - author (string): Penulis buku.
 - is_available (bool): Status ketersediaan buku (True jika tersedia, False jika sedang dipinjam).
 
 ### 2. LibraryMember:
 
-Atribut:
+#### Atribut:
 - name (string): Nama anggota perpustakaan.
 - borrowed_books (list): Daftar objek Book yang dipinjam oleh anggota.
-Metode:
+
+#### Metode:
 - borrow_book(book): Meminjam buku dengan menambahkannya ke dalam daftar buku yang dipinjam oleh anggota.
 - return_book(book): Mengembalikan buku dengan menghapusnya dari daftar buku yang dipinjam oleh anggota.
 - display_borrowed_books(): Menampilkan daftar buku yang dipinjam oleh anggota beserta informasi detailnya, seperti judul, penulis, dan status ketersediaan.
