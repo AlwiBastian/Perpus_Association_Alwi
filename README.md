@@ -1,16 +1,16 @@
 # Perpus_Association_Alwi
 Program ini merupakan implementasi sederhana dari sistem peminjaman buku di perpustakaan menggunakan konsep Association antara dua kelas utama, yaitu Book (Buku) dan LibraryMember (Anggota Perpustakaan). Setiap objek LibraryMember akan terkait dengan beberapa objek Book yang merupakan daftar buku yang dipinjam oleh anggota tersebut.
 
-Fungsi dan Fitur
+##Fungsi dan Fitur
 
-1. Book:
+###1. Book:
 
 Atribut:
 - title (string): Judul buku.
 - author (string): Penulis buku.
 - is_available (bool): Status ketersediaan buku (True jika tersedia, False jika sedang dipinjam).
 
-2. LibraryMember:
+###2. LibraryMember:
 
 Atribut:
 - name (string): Nama anggota perpustakaan.
@@ -20,7 +20,7 @@ Metode:
 - return_book(book): Mengembalikan buku dengan menghapusnya dari daftar buku yang dipinjam oleh anggota.
 - display_borrowed_books(): Menampilkan daftar buku yang dipinjam oleh anggota beserta informasi detailnya, seperti judul, penulis, dan status ketersediaan.
 
-Contoh Penggunaan
+##Contoh Penggunaan
 Berikut adalah contoh penggunaan program:
 1. Memasukkan nama anggota perpustakaan.
 2. Memilih opsi dari menu yang tersedia:
