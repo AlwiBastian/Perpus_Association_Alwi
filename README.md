@@ -3,14 +3,14 @@ Program ini merupakan implementasi sederhana dari sistem peminjaman buku di perp
 
 ## Fungsi dan Fitur
 
-### 1. Book:
+### 1. Kelas Book:
 
 #### Atribut:
 - title (string): Judul buku.
 - author (string): Penulis buku.
 - is_available (bool): Status ketersediaan buku (True jika tersedia, False jika sedang dipinjam).
 
-### 2. LibraryMember:
+### 2. Kelas LibraryMember:
 
 #### Atribut:
 - name (string): Nama anggota perpustakaan.
